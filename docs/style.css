@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background-image: url("https://goadmedia.com.br/wp-content/uploads/2020/04/foto-fintech.jpg");
+  background-color: black;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  background-repeat: no-repeat;
+  background-position-x: -1500px;
+}
+
+.container {
+  background: #ecf4ff;
+  position: center;
+  color: #1c1c1c;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  box-shadow: 20px 10px 20px #0e1d2f;
+  border-radius: 20px;
+  padding: 64px;
+  padding-bottom: 32px;
+}
+
+
+.links {
+  /*   display: flex; */
+  display: flex;
+  flex-direction: row;
+}
+
+.imgLinks {
+  max-height: 20px;
+}
+
+.cabecalho{
+  display:flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+ 
+}
+
+.foto {
+  border-radius: 500px;
+  height: 150px;
+  box-shadow: 4px 4px 4px rgba(16, 16, 16, 0.42);
+  /*   border-style: solid;
+  border-width: 0px;
+  border-color: #1c1c1c;
+  border-style: ridge; */
+}
+
+.titulo {
+  margin-left: 16px;
+  padding: 1px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+  padding: 1px;
+  margin: 1px;
+}
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+  padding: 1px;
+}
+
+
+.tema button {
+  align-self:flex-end
+  
+  font-size:16px;
+  font-weight:400px;
+  padding: 8px 16px;
+  background: white;
+  border-radius: 100px;
+  
+}
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 235, 212);
+  background: -moz-linear-gradient(
+    273deg,
+    rgba(255, 235, 212, 0.22202384371717432) 0%,
+    rgba(110, 206, 255, 0.3200630594034489) 81%,
+    rgba(25, 116, 182, 0.25003504819896705) 100%
+  );
+  background: -webkit-linear-gradient(
+    273deg,
+    rgba(255, 235, 212, 0.22202384371717432) 0%,
+    rgba(110, 206, 255, 0.3200630594034489) 81%,
+    rgba(25, 116, 182, 0.25003504819896705) 100%
+  );
+  background: linear-gradient(
+    273deg,
+    rgba(255, 235, 212, 0.22202384371717432) 0%,
+    rgba(110, 206, 255, 0.3200630594034489) 81%,
+    rgba(25, 116, 182, 0.25003504819896705) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffebd4",endColorstr="#1974b6",GradientType=1);
+  /*   background: linear-gradient(270deg, #ffe4b5 1%, #b0c4de 55%); */
+  box-shadow: 4px 4px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  padding: 15px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.projetos:hover {
+  transform: scale 100%;
+ box-shadow: 0px 0px 10px 2px #686868;
+}
+
+.subtitulo {
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  list-style-type: none;
+}
+
+.item a:link {
+ 
+  text-decoration: none;
+   color:  #1c1c1c;
+}
+
+/*Link já visitado*/
+.item a:visited {
+  color:  #1c1c1c;
+  text-decoration: none;
+  margin-bottom:5px;
+}
+
+/*Quando o mouse passa por cima*/
+.item a:hover {
+  color: darkgray;
+  text-decoration: none;
+  font-size: 120%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 20px;
+  
+  padding: 10px;
+}
+
+.item {
+  list-style-type: none;
+}
+
+.dark .container{
+  background: #333439;
+  color:#F6F6F6;
+}
+.dark .tema button{
+  font-size:16px;
+  font-weight:400px;
+  background: #1C1C1C;
+  color:#ffffff;
+  border: 2px solid #F7F7F7;
+}
+
+.dark .item a:link {
+  line-height: 10px;
+  padding-bottom:20px;
+  text-decoration: none;
+   color: #F6F6F6;
+}
+
+/*Link já visitado*/
+.dark .item a:visited {
+  line-height: 10px;
+  color: #F6F6F6;
+  text-decoration: none;
+  padding-bottom:20px;
+}
